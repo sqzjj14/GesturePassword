@@ -15,6 +15,11 @@
 		50A6AD771D8691B400594B7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50A6AD751D8691B400594B7F /* LaunchScreen.storyboard */; };
 		50A6AD821D8691B500594B7F /* GesturePasswordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A6AD811D8691B500594B7F /* GesturePasswordTests.m */; };
 		50A6AD8D1D8691B500594B7F /* GesturePasswordUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A6AD8C1D8691B500594B7F /* GesturePasswordUITests.m */; };
+		50A6AD9C1D86921F00594B7F /* GesPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A6AD9B1D86921F00594B7F /* GesPasswordView.m */; };
+		50A6ADA11D86997400594B7F /* ges_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A6AD9D1D86997400594B7F /* ges_background.png */; };
+		50A6ADA21D86997400594B7F /* ges_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A6AD9E1D86997400594B7F /* ges_left.png */; };
+		50A6ADA31D86997400594B7F /* ges_middle.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A6AD9F1D86997400594B7F /* ges_middle.png */; };
+		50A6ADA41D86997400594B7F /* ges_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A6ADA01D86997400594B7F /* ges_right.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,12 @@
 		50A6AD881D8691B500594B7F /* GesturePasswordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GesturePasswordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50A6AD8C1D8691B500594B7F /* GesturePasswordUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GesturePasswordUITests.m; sourceTree = "<group>"; };
 		50A6AD8E1D8691B500594B7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50A6AD9A1D86921F00594B7F /* GesPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GesPasswordView.h; sourceTree = "<group>"; };
+		50A6AD9B1D86921F00594B7F /* GesPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GesPasswordView.m; sourceTree = "<group>"; };
+		50A6AD9D1D86997400594B7F /* ges_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ges_background.png; sourceTree = "<group>"; };
+		50A6AD9E1D86997400594B7F /* ges_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ges_left.png; sourceTree = "<group>"; };
+		50A6AD9F1D86997400594B7F /* ges_middle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ges_middle.png; sourceTree = "<group>"; };
+		50A6ADA01D86997400594B7F /* ges_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ges_right.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +116,12 @@
 				50A6AD6B1D8691B400594B7F /* AppDelegate.m */,
 				50A6AD6D1D8691B400594B7F /* ViewController.h */,
 				50A6AD6E1D8691B400594B7F /* ViewController.m */,
+				50A6AD9A1D86921F00594B7F /* GesPasswordView.h */,
+				50A6AD9B1D86921F00594B7F /* GesPasswordView.m */,
+				50A6AD9D1D86997400594B7F /* ges_background.png */,
+				50A6AD9E1D86997400594B7F /* ges_left.png */,
+				50A6AD9F1D86997400594B7F /* ges_middle.png */,
+				50A6ADA01D86997400594B7F /* ges_right.png */,
 				50A6AD701D8691B400594B7F /* Main.storyboard */,
 				50A6AD731D8691B400594B7F /* Assets.xcassets */,
 				50A6AD751D8691B400594B7F /* LaunchScreen.storyboard */,
@@ -245,7 +262,11 @@
 			files = (
 				50A6AD771D8691B400594B7F /* LaunchScreen.storyboard in Resources */,
 				50A6AD741D8691B400594B7F /* Assets.xcassets in Resources */,
+				50A6ADA31D86997400594B7F /* ges_middle.png in Resources */,
 				50A6AD721D8691B400594B7F /* Main.storyboard in Resources */,
+				50A6ADA21D86997400594B7F /* ges_left.png in Resources */,
+				50A6ADA11D86997400594B7F /* ges_background.png in Resources */,
+				50A6ADA41D86997400594B7F /* ges_right.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50A6AD6F1D8691B400594B7F /* ViewController.m in Sources */,
+				50A6AD9C1D86921F00594B7F /* GesPasswordView.m in Sources */,
 				50A6AD6C1D8691B400594B7F /* AppDelegate.m in Sources */,
 				50A6AD691D8691B400594B7F /* main.m in Sources */,
 			);
@@ -498,6 +520,7 @@
 				50A6AD931D8691B500594B7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		50A6AD941D8691B500594B7F /* Build configuration list for PBXNativeTarget "GesturePasswordTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +529,7 @@
 				50A6AD961D8691B500594B7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		50A6AD971D8691B500594B7F /* Build configuration list for PBXNativeTarget "GesturePasswordUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +538,7 @@
 				50A6AD991D8691B500594B7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

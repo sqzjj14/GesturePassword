@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "GesPasswordView.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    GesPasswordView *view = [[GesPasswordView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.width)];
+    [self.view addSubview:view];
 }
 
 - (void)didReceiveMemoryWarning {
